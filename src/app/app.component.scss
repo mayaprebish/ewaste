@@ -27,29 +27,6 @@
     }
 }
 
-.header {
-    height: 10.5em;
-    background-color: white;
-    h1 {
-        font-family: 'Recurisve', sans-serif;
-        margin: 0;
-        font-size: 40pt;
-        font-weight: 900;
-        height: 70px;
-    }
-    h2 {
-        text-align: center;
-        margin: 0 55px 4px;
-        font-size: 14pt;
-        font-weight: lighter;
-        text-transform: uppercase;
-    }
-    hr {
-        margin: 0 55px 8px;
-        border: 0.5px solid black;
-    }
-}
-
 .section1 {
     margin: 0;
     padding: 24px;
@@ -257,4 +234,25 @@
     height: 220px;
     position: absolute;
     right: 60%;
+}
+
+@media (min-width: 700px) {
+    .infographic-container {
+        margin: 0 20%;
+    }
+}
+
+@media (min-width: 1080px) {
+    .infographic-container {
+        margin: 0 20%;
+        .section1 {
+            height: 75vh;
+            h3 {
+                font-size: 2em;
+            }
+        }
+    }
+    .earth {
+        left: 25%;
+    }
 }
