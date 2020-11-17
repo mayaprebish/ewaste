@@ -130,7 +130,7 @@
     }
     @media screen and (min-width: 620px) {
         .bullet {
-            min-height: 160px;
+            min-height: 250px;
         }
     }
 }
@@ -238,21 +238,24 @@
 
 @media (min-width: 700px) {
     .infographic-container {
-        margin: 0 20%;
+        margin: 0 25%;
+    }
+    .earth {
+        left: 15%;
     }
 }
 
 @media (min-width: 1080px) {
     .infographic-container {
-        margin: 0 20%;
+        margin: 0 33%;
         .section1 {
             height: 75vh;
             h3 {
-                font-size: 2em;
+                font-size: 1.5em;
             }
         }
     }
     .earth {
-        left: 25%;
+        left: 30%;
     }
 }
